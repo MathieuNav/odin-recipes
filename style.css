@@ -1,0 +1,78 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  border-radius: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  background-color: #45818e;
+  color: #ecf4ff;
+  text-align: center;
+}
+
+.southwest {
+  background-color: #d0e4ff;
+  color: #224047;
+}
+
+.east {
+  background-color: #294d55;
+  color: #ecf2f3;
+}
+
+.dark {
+  background-color: #bbcde5;
+  color: #141619;
+}
+
+/* Home page links */
+.top {
+  color: #00007f;
+}
+
+.middle {
+  color: #f0f8ff;
+}
+
+.bottom {
+  color: #990000;
+}
+
+a:hover.top {
+  color: #f0f8ff;
+}
+
+a:hover.middle {
+  color: #990000;
+}
+
+a:hover.bottom {
+  color: #00007f;
+}
+
+/* Link back to home page*/
+.home-link-dark {
+  color: #ae8419;
+}
+
+.home-link-light {
+  color: #daa520;
+}
+
+a:hover.home-link-dark,
+a:hover.home-link-light {
+  color: #00007f;
+}

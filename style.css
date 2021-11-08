@@ -9,10 +9,6 @@ img {
   border-radius: 5%;
 }
 
-ul {
-  list-style-type: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -39,6 +35,10 @@ a {
 }
 
 /* Home page links */
+.page-links {
+  list-style-type: none;
+}
+
 .top {
   color: #00007f;
 }
